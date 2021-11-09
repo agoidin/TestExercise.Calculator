@@ -1,0 +1,16 @@
+a.	The approach you’ve taken to make the whole class 100 % branch coverage capable;
+-------------------------------------------------------------------------------------
+	For the whole branch coverage I have written the tests and handled 
+	all different input combinations that are possible for the method MultiplyMe;
+		* first number - zero, positive, negative
+		* second number - zero, positive, negative
+		* boolean - true and false
+	So that despite of input it still will be processed and correct output provided.
+
+
+b.	Provide a risk analysis of test completeness for your 100% branch coverage.
+-------------------------------------------------------------------------------------
+	Despite the fact that I probably tested all possible combinations, 
+	in my opinion that amount of tests is a bit excessive, and some of those might be removed. 
+	For example, testing as num1 = x and num2 = y along with testing num1 = y and num2 = x 
+	makes lots of extra work and I am not sure if it is relevant/efficent.
